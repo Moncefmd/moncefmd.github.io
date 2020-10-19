@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: dev
+  repo: Moncefmd/moncefmd.github.io
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
